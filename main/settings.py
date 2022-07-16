@@ -126,6 +126,7 @@ MEDIA_URL = '/media/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'), )
 
 JAZZMIN_UI_TWEAKS = {
+    # Add your themes here
     "theme": "flatly",
     "navbar": "navbar-dark",
     "dark_mode_theme": "darkly",
@@ -136,12 +137,13 @@ JAZZMIN_SETTINGS = {
     # Title on the login screen (19 chars max) (will default to current_admin_site.site_header)
     "site_header": "your site header",
     # Title on the brand (19 chars max) (will default to current_admin_site.site_header)
-    "site_brand": "ISTE-NITH'22",
-    "welcome_sign": "Welcome to the admin panel of the respective w`ebsite",
+    "site_brand": "Your BRAND",
+    "welcome_sign": "Welcome to the admin panel of the respective website",
     # Copyright on the footer
-    "copyright": "ISTE-NITH",
+    "copyright": "YOUR COPYRIGHT",
     "changeform_format": "horizontal_tabs",
-    "site_logo": "images/iste.png",
+    # Add your Logo here
+    # "site_logo": "images/",
     "site_logo_classes": "img-circle",
     "topmenu_links": [
         {
