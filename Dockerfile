@@ -14,4 +14,4 @@ RUN pip install -r requirements.txt
 COPY . .
 
 # Expose the Flask port
-EXPOSE 8084
+EXPOSE 8080
