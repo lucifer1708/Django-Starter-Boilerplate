@@ -7,5 +7,5 @@ services:
       - /db.sqlite3
     build: .
     ports:
-      - "8080:8080"
+      - "8084:8084"
     command:  gunicorn --bind 0.0.0.0:8080 main.wsgi 
