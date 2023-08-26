@@ -87,6 +87,10 @@
           width: 50px;
      }
 
+     .cut-short-number {
+          width: 100px;
+     }
+
      .input:focus~.cut,
      .input:not(:placeholder-shown)~.cut {
           transform: translateY(8px);
@@ -166,7 +170,7 @@
                </div>
                <div class="input-container ic2">
                     {{ form.phone_number|attr:"class:input" }}
-                    <div class="cut cut-short"></div>
+                    <div class="cut cut-short cut-short-number"></div>
                     <label for="id_phone_number" class="placeholder">Whatsapp Number
                </div>
                <button type="text" class="submit">Submit</button>
