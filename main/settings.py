@@ -27,8 +27,12 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["quiz.istenith.com", "sumitdhiman.in"]
-
+ALLOWED_HOSTS = ["localhost", "quiz.istenith.com", "sumitdhiman.in"]
+CSRF_TRUSTED_ORIGINS = [
+    "https://quiz.istenith.com",
+    "http://quiz.istenith.com",
+    "sumitdhiman.in",
+]
 # Application definition
 
 INSTALLED_APPS = [
