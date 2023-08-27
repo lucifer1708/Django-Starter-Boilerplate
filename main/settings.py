@@ -31,7 +31,6 @@ ALLOWED_HOSTS = ["localhost", "quiz.istenith.com", "sumitdhiman.in"]
 CSRF_TRUSTED_ORIGINS = [
     "https://quiz.istenith.com",
     "http://quiz.istenith.com",
-    "sumitdhiman.in",
 ]
 # Application definition
 
@@ -39,6 +38,7 @@ INSTALLED_APPS = [
     "form",
     "widget_tweaks",
     "jazzmin",
+    "import_export",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
